@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.logo{
+  width: 350px;
+}
+.titulo{
+  color: aliceblue;
+  margin: 20px 0 40px 0; 
+}
+.btn_container{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.btn_categoria{
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn_gerar{
+  padding: 10px 60px;
+  background-color: rgb(59, 104, 253);
+  border-radius: 5px;
+}
+.p_frase{
+  max-width: 750px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  padding: 20px;
+  line-height: 150%;
+  
+}
